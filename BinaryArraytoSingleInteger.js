@@ -23,3 +23,7 @@ const binaryArrayToNumber = (arr) => {
   // Return the integer value.
   return integer;
 };
+
+// Codewars recommends the next block of code as de best practice solution
+
+// const binaryArrayToNumber = arr => parseInt(arr.join(''), 2);
